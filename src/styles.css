@@ -1,0 +1,24 @@
+:root {
+  --bg: #0b0f14;
+  --card: #131a22;
+  --text: #e6eef8;
+  --muted: #9db0c2;
+  --accent: #3aa6ff;
+  --border: #1e2835;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    "Helvetica Neue", Arial;
+}
